@@ -70,8 +70,8 @@ import org.slf4j.LoggerFactory;
  */
 public class HeliumBundleFactory {
   private static final Logger LOGGER = LoggerFactory.getLogger(HeliumBundleFactory.class);
-  private static final String NODE_VERSION = "v16.16.0";
-  private static final String NPM_VERSION = "8.11.0";
+  private static final String NODE_VERSION = "v14.21.3";
+  private static final String NPM_VERSION = "6.14.18";
   private static final String YARN_VERSION = "v1.22.0";
   private static final String NPM_PACKAGE_NAME = "npm";
   protected static final String HELIUM_LOCAL_REPO = "helium-bundle";
@@ -406,7 +406,7 @@ public class HeliumBundleFactory {
     }
 
     WebpackResult result = getWebpackResultFromOutput(bundleStdoutResult);
-    if (result != null && result.errors.length > 0) {
+    if (result.errors.length > 0) {
       FileUtils.deleteQuietly(heliumBundle);
       throw new IOException(result.errors[0]);
     }
@@ -589,7 +589,7 @@ public class HeliumBundleFactory {
 
         if (!webpackRunDetected) {
           String trimed = line.trim();
-          if (trimed.contains("webpack") && trimed.endsWith("--json")) {
+          if (trimed.contains("webpack") && trimed.contains("--json")) {
             webpackRunDetected = true;
           }
           continue;
