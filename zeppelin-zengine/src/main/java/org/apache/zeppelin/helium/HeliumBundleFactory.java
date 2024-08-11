@@ -406,7 +406,7 @@ public class HeliumBundleFactory {
     }
 
     WebpackResult result = getWebpackResultFromOutput(bundleStdoutResult);
-    if (result != null && result.errors.length > 0) {
+    if (result.errors.length > 0) {
       FileUtils.deleteQuietly(heliumBundle);
       throw new IOException(result.errors[0]);
     }
