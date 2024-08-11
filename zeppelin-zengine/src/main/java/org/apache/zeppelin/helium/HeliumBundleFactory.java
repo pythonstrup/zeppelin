@@ -589,7 +589,7 @@ public class HeliumBundleFactory {
 
         if (!webpackRunDetected) {
           String trimed = line.trim();
-          if (trimed.contains("webpack") && trimed.contains("--json")) {
+          if (trimed.contains("webpack") && trimed.endsWith("--json --registry=https://registry.npmjs.org/")) {
             webpackRunDetected = true;
           }
           continue;
