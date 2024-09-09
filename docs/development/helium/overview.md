@@ -36,7 +36,6 @@ Currently, Helium supports 4 types of package.
 - [Helium Application](./writing_application.html) 
 - [Helium Interpreter](../writing_zeppelin_interpreter.html): Adding a new custom interpreter
 
-
 ## Configuration
 
 Zeppelin ships with several builtin helium plugins which is located in $ZEPPELIN_HOME/heliums. If you want to try more types of heliums plugins,
