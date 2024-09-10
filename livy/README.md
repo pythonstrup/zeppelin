@@ -9,6 +9,6 @@ You can add integration test to [LivyInterpreter.java](https://github.com/apache
 
 ```bash
 export LIVY_HOME=<path_of_livy_0.8.0>
-export SPARK_HOME=<path_of_spark-3.4.1>
+export SPARK_HOME=<path_of_spark-2.4.8>
 ./mvnw clean verify -pl livy -DfailIfNoTests=false
 ```

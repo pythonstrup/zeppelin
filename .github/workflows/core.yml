@@ -471,7 +471,7 @@ jobs:
           R -e "IRkernel::installspec()"
       - name: run tests
         run: |
-          export SPARK_HOME=$PWD/spark-3.4.1-bin-hadoop3.3
+          export SPARK_HOME=$PWD/spark-2.4.8-bin-hadoop2.7
           export LIVY_HOME=$PWD/apache-livy-0.8.0-incubating_2.11-bin
           ./mvnw verify -pl livy -am ${MAVEN_ARGS}
 
