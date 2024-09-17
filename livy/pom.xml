@@ -37,6 +37,9 @@
         <commons.exec.version>1.3</commons.exec.version>
         <spring.web.version>4.3.0.RELEASE</spring.web.version>
         <spring.security.kerberosclient>1.0.1.RELEASE</spring.security.kerberosclient>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <java.version>11</java.version>
     </properties>
 
     <dependencies>
