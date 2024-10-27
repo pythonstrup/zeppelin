@@ -123,11 +123,12 @@
       }
     },
     "option": {
+      "host": "localhost",
       "remote": true,
-      "port": -1,
+      "port": 8998,
       "perNote": "shared",
       "perUser": "scoped",
-      "isExistingProcess": false,
+      "isExistingProcess": true,
       "setPermission": false,
       "users": []
     },
@@ -170,11 +171,12 @@
       }
     },
     "option": {
+      "host": "localhost",
       "remote": true,
-      "port": -1,
+      "port": 8998,
       "perNote": "shared",
       "perUser": "scoped",
-      "isExistingProcess": false,
+      "isExistingProcess": true,
       "setPermission": false,
       "users": []
     },
@@ -192,11 +194,12 @@
     "properties": {
     },
     "option": {
+      "host": "localhost",
       "remote": true,
-      "port": -1,
+      "port": 8998,
       "perNote": "shared",
       "perUser": "scoped",
-      "isExistingProcess": false,
+      "isExistingProcess": true,
       "setPermission": false,
       "users": []
     },
@@ -214,11 +217,12 @@
     "properties": {
     },
     "option": {
+      "host": "localhost",
       "remote": true,
-      "port": -1,
+      "port": 8998,
       "perNote": "shared",
       "perUser": "scoped",
-      "isExistingProcess": false,
+      "isExistingProcess": true,
       "setPermission": false,
       "users": []
     },
@@ -236,11 +240,12 @@
     "properties": {
     },
     "option": {
+      "host": "localhost",
       "remote": true,
-      "port": -1,
+      "port": 8998,
       "perNote": "shared",
       "perUser": "scoped",
-      "isExistingProcess": false,
+      "isExistingProcess": true,
       "setPermission": false,
       "users": []
     },
@@ -258,11 +263,12 @@
     "properties": {
     },
     "option": {
+      "host": "localhost",
       "remote": true,
-      "port": -1,
+      "port": 8998,
       "perNote": "shared",
       "perUser": "scoped",
-      "isExistingProcess": false,
+      "isExistingProcess": true,
       "setPermission": false,
       "users": []
     }
